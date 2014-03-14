@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CardFlip">
+        <attr name="cf_front" format="reference" />
+        <attr name="cf_back" format="reference" />
+        <attr name="cf_animationDuration" format="integer" />
+    </declare-styleable>
+
+</resources>
