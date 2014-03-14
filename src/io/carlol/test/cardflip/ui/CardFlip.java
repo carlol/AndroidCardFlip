@@ -74,11 +74,11 @@ public class CardFlip extends RelativeLayout {
 		RuntimeException e = null;
 		if (mFrontViewId == 0) {
 			e = new IllegalArgumentException(a.getPositionDescription() + 
-					": The handle attribute is required and must refer to a valid child.");
+					": The front attribute is required and must refer to a valid child.");
 		}
 		if (mBackViewId == 0) {
 			e = new IllegalArgumentException(a.getPositionDescription() + 
-					": The content attribute is required and must refer to a valid child.");
+					": The back attribute is required and must refer to a valid child.");
 		}
 		a.recycle();
 		if (e != null) throw e;
