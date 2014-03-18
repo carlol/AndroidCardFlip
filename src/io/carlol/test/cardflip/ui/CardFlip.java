@@ -21,7 +21,7 @@ import android.widget.RelativeLayout;
  */
 public class CardFlip extends RelativeLayout {
 
-	private static final int DEFAULTA_ANIMATION_DURATION = 500;
+	private static final int DEFAULT_ANIMATION_DURATION = 500;
 	
 	private int mFrontViewId;
 	private int mBackViewId;
