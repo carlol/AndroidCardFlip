@@ -1,8 +1,6 @@
 AndroidCardFlip
 ===============
 
-Simple Compound View to perform flip effect for ALL android versions
-
 CardFlipView is a simple Compound View to perform flip animation for ALL android versions.
 
 Flip animation is performed by single tap on the compound view, but could be triggered using a specific method programmatically:
